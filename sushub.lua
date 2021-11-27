@@ -9,7 +9,7 @@ local games = {
     [7551121821] = "Decaying Winter",
     [7393403076] ="Anime Artifacts Sim",
     [7549229959] = "Squid Game",
-    [4851363266] ="My Park" 
+    [4851363266] ="My Park",
 }
 
 for i,v in next, games do
