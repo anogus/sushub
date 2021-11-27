@@ -19,3 +19,4 @@ local name = nil
 name = games[game.PlaceId] or games[game.GameId]
 if name then
     return loadstring(game:HttpGet("https://raw.githubusercontent.com/anogus/sushub/main/scripts/" .. name .. ".lua"))()
+end
