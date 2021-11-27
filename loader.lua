@@ -1,3 +1,4 @@
+
 local games = {
     [7540891731] ="Red Light Green Light",
     [2693023319] = "Expedition Antarctica",
@@ -15,7 +16,7 @@ local games = {
 for i,v in next, games do
     games[i] = table.concat(v:split(' '), '_')
 end
-local name = nil
-name = games[game.PlaceId] or games[game.GameId]
+local name = games[game.PlaceId] or games[game.GameId]
 if name then
     return loadstring(game:HttpGet("https://raw.githubusercontent.com/anogus/sushub/main/scripts/" .. name .. ".lua"))()
+end
