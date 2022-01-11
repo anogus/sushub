@@ -1,4 +1,9 @@
---by 0x01#5880
+game.StarterGui:SetCore("SendNotification",  {
+    Title = "Script developed by";
+    Text = "MyFemboy 0x01#5880";
+    Duration = 3;
+
+})
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
