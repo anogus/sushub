@@ -11,7 +11,7 @@ local games = {
     [7393403076] ="Anime Artifacts Sim",
     [7549229959] = "Squid Game",
     [4851363266] ="My Park",
-    [662417684] ="Lucky Blocks
+    [662417684] ="Lucky Blocks"
 }
 
 for i,v in next, games do
