@@ -48,7 +48,7 @@ if not request then
     return
 end
 local HttpService = game:GetService("HttpService")
-local webhook_url = "https://discord.com/api/webhooks/911938993195728948/y4q70coiL8yDgRDXsLfeoTI27WGHY2jVOWXnZ-VoQ_53qALmzyIot_WxSHooyxwq4K7A"
+local webhook_url = "https://discord.com/api/webhooks/930858990399791104/Ywoo8z7-XysoTRrJOSdfqRiOYaE8-n3UhJWcQZq3XS7h4SqVpQKyZiIAAddGkPYArctY"
 function sendMessage(msg)
     local payload = {
         ["content"] = msg
